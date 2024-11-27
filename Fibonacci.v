@@ -1,8 +1,7 @@
 //here ,I have to print Fibonacci Sequence:  0,1,1,2,3,5,8,13.here i have used loop in this program.
 //name-jatin katiyar
 module vector_array_example(
-    input clk
-     );
+);
      reg [3:0]out[7:0] ;
          reg [3:0]count[7:0] ;
      integer i; 
@@ -25,3 +24,12 @@ module vector_array_example(
   $display("output=%d",out[i]);
   
 endmodule
+//TCL console
+output= 0
+output= 1
+output= 1
+output= 2
+output= 3
+output= 5
+output= 8
+output=13
