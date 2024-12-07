@@ -20,6 +20,29 @@ module vector_array_example(
        $display("output=%d",count[i]);
   
 endmodule
+//////////////////////////////////////////////////////////////////////////////////
+//next method by while() loop
+module exa();
+integer i;
+
+reg [3:0]count[7:0];
+initial
+begin
+i=2;
+while(i<=9)
+    begin
+    count[0]=0;
+    count[1]=1;
+    count[i]=count[i-1]+count[i-2];
+    
+    i=i+1;
+    end
+    end
+    initial                
+  for(i=0; i< 8; i = i+1)
+       $display("output=%d",count[i]); 
+    
+endmodule
 //TCL console
 output= 0
 output= 1
