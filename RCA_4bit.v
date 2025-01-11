@@ -5,7 +5,7 @@
 // 
 // Create Date: 01/10/2025 09:58:35 PM
 // Design Name: 
-// Module Name: RCA_16bit
+// Module Name: RCA_4bit
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
